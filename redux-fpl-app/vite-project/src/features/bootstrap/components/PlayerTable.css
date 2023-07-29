@@ -1,0 +1,43 @@
+table {
+    border-collapse: collapse;
+  }
+  
+.playertable_row {
+    border-top: 1pt solid rgb(200,200,200);
+    text-align: center;
+  }
+.playertable_header{
+    font-weight: 600;
+    font-size: 0.8em;
+    padding: 5px 10px;
+}
+
+.PlayerDetail{
+    display: flex;
+    text-align: left;
+}
+.PlayerShirtCcontainer{
+    display: flex;
+    align-items: center;
+}
+.PlayerShirt{
+    Height: 30px;
+}
+.PlayerNameTeamPos{
+    padding:5px;
+}
+.PlayerSecondName{
+    font-weight: 700;
+    font-size: 1em;
+}
+.PlayerTeamPos{
+    font-size: 0.8em;
+}
+
+.flex{
+    display: flex;
+}
+.margin20{
+    margin-left:20px;
+    margin-right: 20px;
+}

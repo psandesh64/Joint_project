@@ -1,0 +1,122 @@
+.fixture-header{
+    background-image: linear-gradient(220deg, rgb(0,255,0,0.5),rgb(90,125,248,1),rgb(90,125,248,1),rgb(20,218,255,1),rgb(179,249,255,0.5));
+
+}
+
+.invisible{
+    visibility: hidden;
+}
+.fixture-gameweek-title{
+    font-size:20px;
+    font-weight: 700;
+    text-align: center;
+}
+.bcontainer{
+    flex: 0 0 80px;    
+}
+.rightbutton{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.fixture-gameweek{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.fixture-txt12{
+    text-align: center;
+    font-size: 12px;
+}
+.fixture-wrapper{
+    border:1px solid rgb(225, 225, 225);
+}
+.fixture_rows{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.matchdate{
+    text-align: center;
+    color: #02f1f1;
+    background-color:#37003c;
+}
+
+.fixture_team{
+    display: flex;
+    align-items: center;
+    width:50%-25px;
+    margin:0.5px;
+    
+}
+.fixture_teamName{
+    font-size:18px;
+    font-weight: 700;
+    width:150px;  
+    margin:5px;
+
+}
+.fixture_fixtureBadge{
+    width:50px;
+    height:50px;
+    padding: 2px;
+}
+.fixture_fixtureKOTime{
+    text-align: center;
+    width:50px;
+    padding:8px;
+    margin: 5px;
+    border:1px solid grey;
+}
+.team_home{
+    text-align: right;
+}
+
+.badge{
+    height: 100%;
+}
+
+
+/* CSS */
+.button-8 {
+  background-color: #e1ecf4;
+  border-radius: 8px;
+  border: 1px solid #7aa7c7;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 5px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-8:hover,
+.button-8:focus {
+  background-color: #b3d3ea;
+  color: #2c5777;
+}
+
+.button-8:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-8:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
+}
