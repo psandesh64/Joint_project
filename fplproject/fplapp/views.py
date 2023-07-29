@@ -7,6 +7,7 @@ base_url = "https://fantasy.premierleague.com/api/"
 
 # Create your views here.
 def home_page(request):
+    print('hello')
     return render(request, 'index.html')
 
 def Fixtures(request):
